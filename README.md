@@ -32,7 +32,7 @@ In the review process we will do the following:
 
 **If  you need a little more detail follow these steps:**
 
-1. Download this file [digitallifecollective.json ](https://github.com/ppbpdx/digi/blob/master/digitallifecollective.json)
+1. Download this file [digitallifecollective.json ](https://github.com/DigitalLifeCollective/mapped-projects/blob/master/example.json)
 
 
 2. Open it in a text editor (not a word processor they tend to gum up the formatting)
