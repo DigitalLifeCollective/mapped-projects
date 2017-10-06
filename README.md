@@ -11,7 +11,7 @@ To make this easy for projects and to give you some visibility into the process 
  * The map "build" will pick up the new information and you are on the map!
 
 
-There is no other database or repository for the data and it remains source controled in github with version history for members and interested members to see. We are using the MIT license which means others can use this data.
+There is no other database or repository for the data and it remains source controled in github with version history for members and interested public to see. We are using the MIT license which means others can use this data.
 
 In the review process we will do the following:
 
@@ -24,7 +24,7 @@ In the review process we will do the following:
 
 **If you are a github whiz then all you need to do is:**
 
-* Create a file using the JSON above or the digitallifecollective.json file as your template
+* Create a file using example.json file as your template
 * Name it logically [projectName].json
 * Commit and push your file into /projects 
   ***Note: You will need to create a branch and a pull request.***
