@@ -59,7 +59,7 @@ In the review process we will do the following:
 4. If you need help with the formatting you can always use a handy online format checker like [this one](https://jsonformatter.curiousconcept.com/). Your file will be reviewed and formatted as part of the pull request review.
 
 
-5. Now login to your [github.com](https://github.com) account and navigate to https://github.com/DigitalLifeCollective/mapped-projects/projects
+5. Now login to your [github.com](https://github.com) account and navigate to https://github.com/DigitalLifeCollective/mapped-projects/tree/master/projects
 
 
 6. Click the Upload Files button and follow the instructions. Try to name things logically when you fill in the forms.
