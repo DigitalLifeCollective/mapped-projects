@@ -1,0 +1,28 @@
+{
+  "project": "Inflekt",
+  "website": "inflekt.us/Inflekt-Toward_a_Web_of_Cooperative_Economies.pdf",
+  "description": "Open source community network and events platform.",
+  "logoURL": "https://inflekt.us/library/img/logo.png",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "ConsenSys",
+  "license": [
+    ""
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Ethereum",
+    "tags": ""
+  }
+}

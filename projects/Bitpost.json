@@ -1,0 +1,29 @@
+{
+  "project": "Bitpost",
+  "website": "voluntary.net/bitpost",
+  "description": "Every love letter, political opinion or personal confession you share with someone using services such as email or Facebook is recorded and can be read by curious employees, malicious government agencies, exposed by hackers or shared with advertisers.\r\rWe see this as a basic human rights issue and long term potential threat to civil society. Who couldn't be influenced or intimidated if one had access to every message they've ever sent?\r\rThat's why we've created this user friendly interface to Bitmessage to help keep personal communications private.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Voluntary.net",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/Voluntarynet/Bitpost",
+  "techDetails": {
+    "languages": [
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Bitmessage",
+    "tags": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project": "(n+1)Sec",
+  "website": "learn.equalit.ie/wiki/Np1sec",
+  "description": "(n+1)sec is a Free (libre), end-to-end secure, synchronous, multi-party messaging protocol. The (n+1)sec project, similar to the OTR (off-the-record) project, makes it possible to have secure instantaneous communications between people. (n+1)sec extends upon OTR in supporting not just one-to-one chats, but also chats between arbitrary groups of people. Like OTR, (n+1)sec is built on top of arbitrary chat infrastructure systems, such as XMPP, and can be implemented in any client for these systems.",
+  "logoURL": "https://camo.githubusercontent.com/0ce76afb423dd37ec581994ec63d7011f274d7a4/68747470733a2f2f6c6561726e2e657175616c69742e69652f6d772f696d616765732f372f37662f4e70317365632d7765622e6a7067",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Equalit.ie",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/equalitie/np1sec",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

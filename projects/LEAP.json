@@ -1,0 +1,30 @@
+{
+  "project": "LEAP",
+  "website": "leap.se",
+  "description": "Dedicated to giving all internet users access to secure communication. Our focus is on adapting encryption technology to make it easy to use and widely available.",
+  "logoURL": "https://pbs.twimg.com/profile_images/445298130313953281/dFQKIM5X_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/leapcode",
+  "techDetails": {
+    "languages": [
+      "Python",
+      "Ruby",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

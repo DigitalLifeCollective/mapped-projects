@@ -1,0 +1,40 @@
+{
+  "project": "Freenet",
+  "website": "freenetproject.org",
+  "description": "Freenet is a peer-to-peer platform for censorship-resistant communication and publishing. Browse websites, post on forums, and publish files within Freenet with strong privacy protections.",
+  "logoURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Freenet_logo.svg/120px-Freenet_logo.svg.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v2"
+  ],
+  "repoURL": "github.com/freenet",
+  "techDetails": {
+    "languages": [
+      "C",
+      "Java",
+      "PHP",
+      "Python",
+      "Shell"
+    ],
+    "documentation": [
+      "English",
+      "Chinese \u00e4\u00f3\u00f1 Simplified",
+      "Dutch",
+      "French",
+      "German",
+      "Japanese",
+      "Portuguese",
+      "Spanish"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

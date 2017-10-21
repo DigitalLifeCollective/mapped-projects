@@ -1,0 +1,31 @@
+{
+  "project": "Hypothes.is",
+  "website": "Hypothes.is",
+  "description": "An open platform for discussion on the web. It leverages annotation to enable sentence-level critique or note-taking on top of news, blogs, scientific articles, books, terms of service, ballot initiatives, legislation and more.",
+  "logoURL": "https://pbs.twimg.com/profile_images/741717371333705728/7iUlfzBp_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "FreeBSD",
+    "MIT License"
+  ],
+  "repoURL": "github.com/hypothesis",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

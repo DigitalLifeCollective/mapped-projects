@@ -1,0 +1,30 @@
+{
+  "project": "MetaMask",
+  "website": "metamask.io",
+  "description": "MetaMask is a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum dApps right in your browser without running a full Ethereum node.\r\rMetaMask includes a secure identity vault, providing a user interface to manage your identities on different sites and sign blockchain transactions.",
+  "logoURL": "https://pbs.twimg.com/profile_images/632786773366599681/VzI4uiQB_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "CC BY-SA 2.0",
+    "MIT License"
+  ],
+  "repoURL": "github.com/MetaMask",
+  "techDetails": {
+    "languages": [
+      "JavaScript"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Ethereum",
+    "tags": ""
+  }
+}

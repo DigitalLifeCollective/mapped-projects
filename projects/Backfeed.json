@@ -1,0 +1,31 @@
+{
+  "project": "Backfeed",
+  "website": "backfeed.cc",
+  "description": "Backfeed builds tools that enable large-scale, free and systematic cooperation between thousands of people without the coordination of any central authority. At the core of the Backfeed protocol lies a unique peer to peer evaluation system designed to identify the perceived value of individual contributions to a community and to compensate accordingly.",
+  "logoURL": "https://pbs.twimg.com/profile_images/689851753395781632/VBSYHrJY_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "consensus"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/backfeed",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

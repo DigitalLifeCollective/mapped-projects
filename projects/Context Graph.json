@@ -1,0 +1,28 @@
+{
+  "project": "Context Graph",
+  "website": "wiki.mozilla.org/Context_Graph",
+  "description": "A recommender system for the Web, helping people find new stuff based on their current context.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Mozilla",
+  "license": [
+    "MPL v2.0"
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

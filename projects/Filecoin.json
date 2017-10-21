@@ -1,0 +1,29 @@
+{
+  "project": "Filecoin",
+  "website": "filecoin.io",
+  "description": "A data storage network and electronic currency based on Bitcoin.",
+  "logoURL": "https://pbs.twimg.com/profile_images/489720503892856832/XZt8MkUk_400x400.png",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "consensus"
+  ],
+  "affiliation": "Protocol Labs",
+  "license": [
+    ""
+  ],
+  "repoURL": "github.com/filecoin",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

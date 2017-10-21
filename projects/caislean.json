@@ -1,0 +1,33 @@
+{
+  "project": "Caislean",
+  "website": "equalit.ie/portfolio/caislean",
+  "description": "Caislean is a set of Ansible recipes that you can use to set up and manage in few simple steps servers offering free and open-source tools for secure communications and information exchange. All of the services included in these recipes have been carefully and meticulously configured for confidentiality, integrity and authenticity of communications.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Equalit.ie",
+  "license": [
+    "GNU GPL v2"
+  ],
+  "repoURL": "github.com/equalitie/Caislean",
+  "techDetails": {
+    "languages": [
+      "C",
+      "C++",
+      "JavaScript",
+      "Python",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

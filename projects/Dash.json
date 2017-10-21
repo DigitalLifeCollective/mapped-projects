@@ -1,0 +1,32 @@
+{
+  "project": "Dash",
+  "website": "dash.org",
+  "description": "Use Dash to make instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world. At Dash\u00e4\u00f3\u00bbs core is a unique fully-incentivized peer-to-peer network. Miners are rewarded for securing the blockchain and masternodes are rewarded for validating, storing and serving the blockchain to users.",
+  "logoURL": "https://pbs.twimg.com/profile_images/645523576750104576/DLqXx1_n_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/dashpay",
+  "techDetails": {
+    "languages": [
+      "C",
+      "JavaScript",
+      "Python",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

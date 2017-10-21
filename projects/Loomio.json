@@ -1,0 +1,30 @@
+{
+  "project": "Loomio",
+  "website": "loomio.org",
+  "description": "Loomio exists to make it easy for anyone, anywhere, to participate in decisions that affect their lives.",
+  "logoURL": "https://pbs.twimg.com/profile_images/740817201180073984/dNAqKKVa_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "equality",
+    "trust"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Enspiral",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "Ruby"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "project": "Namecoin",
+  "website": "namecoin.org",
+  "description": "Namecoin is an experimental open-source technology which improves decentralization, security, censorship resistance, privacy, and speed of certain components of the Internet infrastructure such as DNS and identities.\r\r(For the technically minded, Namecoin is a key/value pair registration and transfer system based on the Bitcoin technology.)",
+  "logoURL": "https://pbs.twimg.com/profile_images/726904183220117504/6RcUbfRI_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/namecoin",
+  "techDetails": {
+    "languages": [
+      "C++",
+      "JavaScript",
+      "PHP"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Bitcoin",
+    "tags": ""
+  }
+}

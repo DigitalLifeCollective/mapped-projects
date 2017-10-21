@@ -1,0 +1,35 @@
+{
+  "project": "Private Internet Access",
+  "website": "privateinternetaccess.com",
+  "description": "The Private Internet Access VPN Service encrypts Internet connections and provides uses with an anonymous IP to protect their privacy. ",
+  "logoURL": "https://pbs.twimg.com/profile_images/745074938508283904/wVSX8Dum_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [],
+  "affiliation": "",
+  "license": [
+    ""
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English",
+      "Danish",
+      "Dutch",
+      "French",
+      "German",
+      "Italian",
+      "Polish",
+      "Portuguese",
+      "Spanish",
+      "Turkish"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

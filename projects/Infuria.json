@@ -1,0 +1,30 @@
+{
+  "project": "Infuria",
+  "website": "infura.io",
+  "description": "The world will be decentralized when Ethereum is ubiquitous and every person is hosting his or her own node. We eagerly await that day. Until that day comes, INFURA will assist the decentralization movement and advance the state of the art by providing the people with a gateway to Ethereum and IPFS. ",
+  "logoURL": "https://pbs.twimg.com/profile_images/768276096135663616/9mUdOLN0_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "consensus"
+  ],
+  "affiliation": "ConsenSys",
+  "license": [
+    ""
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Ethereum",
+    "tags": ""
+  }
+}

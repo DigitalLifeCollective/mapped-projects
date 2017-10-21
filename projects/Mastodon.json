@@ -1,0 +1,30 @@
+{
+  "project": "Mastodon",
+  "website": "mastodon.social",
+  "description": "Mastodon is a free, open-source social network server. A decentralized alternative to commercial platforms, it avoids the risks of a single company monopolizing your communication. Anyone can run Mastodon and participate in the social network seamlessly.",
+  "logoURL": "https://assets.mastodon.social/assets/logo-5701d8d94bca66668f49a2803c984e960dfe0bf93a71f2d86be9455e66505cee.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/tootsuite/mastodon",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "Ruby"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "GNU Social",
+    "tags": ""
+  }
+}

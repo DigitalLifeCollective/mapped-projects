@@ -1,0 +1,28 @@
+{
+  "project": "Gnosis",
+  "website": "gnosis.pm",
+  "description": "Make complex predictions with an easy to use prediction market. ",
+  "logoURL": "https://pbs.twimg.com/profile_images/641699680120930304/p5MlrKcS_400x400.png",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "ConsenSys",
+  "license": [
+    "Not stated"
+  ],
+  "repoURL": "github.com/ConsenSys/gnosis-contracts",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

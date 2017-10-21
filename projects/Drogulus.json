@@ -1,0 +1,28 @@
+{
+  "project": "Drogulus",
+  "website": "drogul.us",
+  "description": "A programmable peer-to-peer data store built for simplicity, security, openness & fun. It's an open, federated and decentralised system where the identity of users and provenance of data is ensured by cryptographically signing digital assets.",
+  "logoURL": "http://drogul.us/images/logo.png",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/ntoll/drogulus",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      ""
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

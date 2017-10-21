@@ -1,0 +1,30 @@
+{
+  "project": "Git",
+  "website": "git-scm.com",
+  "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. ",
+  "logoURL": "https://git-scm.com/images/logo@2x.png",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v2"
+  ],
+  "repoURL": "github.com/git/git",
+  "techDetails": {
+    "languages": [
+      "C",
+      "JavaScript",
+      "Ruby"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

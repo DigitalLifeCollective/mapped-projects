@@ -1,0 +1,31 @@
+{
+  "project": "Mail-in-a-Box",
+  "website": "mailinabox.email",
+  "description": "Mail-in-a-Box lets you become your own mail service provider in a few easy steps. It\u00e4\u00f3\u00bbs sort of like making your own gmail, but one you control from top to bottom. Technically, Mail-in-a-Box turns a fresh cloud computer into a working mail server. But you don\u00e4\u00f3\u00bbt need to be a technology expert to set it up.",
+  "logoURL": "https://pbs.twimg.com/profile_images/492737131819724800/7AyNN7Ru_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "CC0"
+  ],
+  "repoURL": "github.com/mail-in-a-box",
+  "techDetails": {
+    "languages": [
+      "Perl",
+      "PHP",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

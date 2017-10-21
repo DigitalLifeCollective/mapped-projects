@@ -1,0 +1,30 @@
+{
+  "project": "Core.Network",
+  "website": "core.network",
+  "description": "Unify your networks, own your data, and explore the internet through groundbreaking visualizations.",
+  "logoURL": "https://core.network/wp-content/uploads/2015/12/cropped-Core-Network-Logo.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "consensus"
+  ],
+  "affiliation": "CoMakery",
+  "license": [
+    ""
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

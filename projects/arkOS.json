@@ -1,0 +1,31 @@
+{
+  "project": "arkOS",
+  "website": "arkos.io",
+  "description": "arkOS is a flavour of Arch Linux ARM, a lightweight Linux-based operating system, that runs on embedded devices and standalone servers. But arkOS more than just an operating system \u00e4\u00f3\u00ee it is a full software stack managing your self-hosting experience in an intuitive and intelligent way. arkOS does the work for you.",
+  "logoURL": "https://pbs.twimg.com/profile_images/793914750572883968/qcxFGxHn_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/arkOScloud",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "Lua",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Arch Linux",
+    "tags": ""
+  }
+}

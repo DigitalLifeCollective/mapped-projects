@@ -1,0 +1,28 @@
+{
+  "project": "CloudFleet",
+  "website": "cloudfleet.io",
+  "description": "The CloudFleet Blimp is a device that enables you to communicate securely via email, manages your files, calendar and contacts. It is easy to use, keeps your personal data safe and secure and will grow into a smart personal assistant. ",
+  "logoURL": "https://pbs.twimg.com/profile_images/692006962393841666/7xCGZ24g_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}
