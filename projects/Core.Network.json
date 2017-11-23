@@ -1,7 +1,7 @@
 {
-  "project": "Core.Network",
+  "project": "Core Network",
   "website": "core.network",
-  "description": "Unify your networks, own your data, and explore the internet through groundbreaking visualizations.",
+  "description": "Unify your networks, own your data, and explore the internet through visualizations.",
   "logoURL": "https://core.network/wp-content/uploads/2015/12/cropped-Core-Network-Logo.png",
   "email": "",
   "purpose": [
@@ -12,19 +12,19 @@
     "social",
     "consensus"
   ],
-  "affiliation": "CoMakery",
+  "affiliation": "Enlightened Structure",
   "license": [
-    ""
+    "Apache 2"
   ],
-  "repoURL": "",
+  "repoURL": "https://github.com/core-network/core-network",
   "techDetails": {
     "languages": [
-      ""
+      "JavaScript"
     ],
     "documentation": [
       "English"
     ],
-    "requires": "",
-    "tags": ""
+    "requires": "Trust Graph",
+    "tags": "social"
   }
 }
