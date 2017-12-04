@@ -1,0 +1,39 @@
+{
+  "project": "GNU Social",
+  "website": "gnu.io/social",
+  "description": "GNU social is a social communication software for both public and private communications. It is widely supported and has a large userbase.",
+  "logoURL": "https://pbs.twimg.com/profile_images/557642970707415040/287z4Xyz_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "GNU",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "git.gnu.io",
+  "techDetails": {
+    "languages": [
+      "PHP"
+    ],
+    "documentation": [
+      "English",
+      "Czech",
+      "Dutch",
+      "French",
+      "German",
+      "Italian",
+      "Japanese",
+      "Russian",
+      "Spanish",
+      "Swedish",
+      "Ukrainian"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

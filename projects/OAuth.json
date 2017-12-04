@@ -1,0 +1,28 @@
+{
+  "project": "OAuth",
+  "website": "tools.ietf.org/html/rfc6749",
+  "description": "An open protocol to allow secure authorization in a simple and standard method from web, mobile and desktop applications.",
+  "logoURL": "https://oauth.net/images/oauth-2-sm.png",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "IETF",
+  "license": [
+    ""
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "project": "AGILE Project",
+  "website": "agile-project-iot.eu",
+  "description": "A modular hardware and software gateway for the Internet of Things with support for protocol interoperability, device and data management, IoT apps execution, and external Cloud communication. Enables users to easily build IoT applications and control connected devices through a modular IoT gateway and a set of full stack IoT software components.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    ""
+  ],
+  "repoURL": "github.com/agile-iot",
+  "techDetails": {
+    "languages": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

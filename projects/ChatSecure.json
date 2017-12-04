@@ -1,0 +1,29 @@
+{
+  "project": "ChatSecure",
+  "website": "guardianproject.info/apps/chatsecure",
+  "description": "A full featured mobile messaging application integrated with the \u00e4\u00f3\u00ecOff the Record\u00e4\u00f3\u009d encrypted chat protocol, that allows you to chat with anyone, anywhere using the XMPP chat standard.",
+  "logoURL": "https://guardianproject.info/wp-content/uploads/2010/06/store_new.png",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [],
+  "affiliation": "Guardian Project",
+  "license": [
+    "Apache License v2"
+  ],
+  "repoURL": "github.com/guardianproject/Gibberbot",
+  "techDetails": {
+    "languages": [
+      "C",
+      "Java",
+      "JavaScript",
+      "Ruby"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

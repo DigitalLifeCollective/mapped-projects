@@ -1,0 +1,32 @@
+{
+  "project": "Retroshare",
+  "website": "retroshare.net",
+  "description": "Retroshare creates encrypted connections to your friends. Nobody can spy on you. Retroshare is completely decentralized. This means there are no central servers. It is entirely Open-Source and free. There are no costs, no ads and no Terms of Service.",
+  "logoURL": "https://pbs.twimg.com/profile_images/541960860160098304/on-wvJwL_200x200.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v2"
+  ],
+  "repoURL": "github.com/RetroShare",
+  "techDetails": {
+    "languages": [
+      "C++",
+      "JavaScript",
+      "PHP",
+      "Python"
+    ],
+    "documentation": [
+      ""
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

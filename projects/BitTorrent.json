@@ -1,0 +1,36 @@
+{
+  "project": "BitTorrent",
+  "website": "bittorrent.com",
+  "description": "The BitTorrent protocol breaks big files down into small pieces. The files are then downloaded, piece by piece, from one or many different sources. Since the files are broken down into tiny bites, you use less bandwidth. Which means your downloads move a lot faster.",
+  "logoURL": "https://pbs.twimg.com/profile_images/730072795330191360/qDyFtdEE_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    ""
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English",
+      "Dutch",
+      "French",
+      "German",
+      "Italian",
+      "Polish",
+      "Portuguese",
+      "Spanish",
+      "Turkish"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

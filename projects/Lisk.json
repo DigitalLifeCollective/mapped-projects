@@ -1,0 +1,29 @@
+{
+  "project": "Lisk",
+  "website": "lisk.io",
+  "description": "Lisk is an open sourced blockchain platform and framework to develop decentralized blockchain-based applications in JavaScript. With Lisk, developers may build blockchain applications which utilize their own sidechain interlinked to the Lisk platform. Thanks to the scalability and flexibility of sidechains developers can implement and customize their blockchain applications entirely.",
+  "logoURL": "https://pbs.twimg.com/profile_images/693005622267269121/WCttamlO_400x400.png",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/LiskHQ",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Bitcoin",
+    "tags": ""
+  }
+}

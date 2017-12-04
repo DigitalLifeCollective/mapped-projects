@@ -1,0 +1,28 @@
+{
+  "project": "HIE of One",
+  "website": "hieofone.org",
+  "description": "HIE of One Authorization Server is a simple User Managed Access (UMA) Server that incorporates OAuth2 and OpenID Connect protocols to facilitate the ability of an individual to control and authorize access to his or her health information to clients such as physicians, hospitals, caregivers, and third-party applications.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/shihjay2/hieofone-as",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

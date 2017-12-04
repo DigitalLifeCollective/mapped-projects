@@ -1,0 +1,28 @@
+{
+  "project": "BoardRoom",
+  "website": "boardroom.to",
+  "description": "Boardroom is a Governance Framework and dApp made for Individuals and Companies to manage their Smart Contract Systems on the Public and Permissioned Ethereum Blockchains. ",
+  "logoURL": "https://pbs.twimg.com/profile_images/601780811675803648/Q-W6IgCF_400x400.png",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "ConsenSys",
+  "license": [
+    "Not stated"
+  ],
+  "repoURL": "github.com/boardroom-project",
+  "techDetails": {
+    "languages": [
+      "JavaScript"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Ethereum",
+    "tags": ""
+  }
+}

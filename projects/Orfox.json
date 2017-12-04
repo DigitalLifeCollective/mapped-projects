@@ -1,0 +1,30 @@
+{
+  "project": "Orfox",
+  "website": "https://guardianproject.info/apps/orfox/",
+  "description": "Orfox is built from the same source code as Tor Browser (which is built upon Firefox), but with a few minor modifications to the privacy enhancing features to make them compatible with Firefox for Android and the Android operating system.",
+  "logoURL": "https://guardianproject.info/wp-content/uploads/2016/01/orfox64.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [],
+  "affiliation": "Guardian Project",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/guardianproject/Orfox",
+  "techDetails": {
+    "languages": [
+      "C",
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

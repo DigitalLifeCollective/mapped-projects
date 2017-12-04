@@ -1,0 +1,51 @@
+{
+  "project": "GPG Suite",
+  "website": "gpgtools.org",
+  "description": "Everything you need to get started with secure communication and encrypting files in one simple package. Use GPG Suite to encrypt, decrypt, sign and verify files or messages. Manage your GPG Keychain with a few simple clicks and experience the full power of GPG easier than ever before.",
+  "logoURL": "https://pbs.twimg.com/profile_images/378800000255076607/fd2688adfc34cbc420768f894b8fc480_400x400.jpeg",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/GPGTools",
+  "techDetails": {
+    "languages": [
+      "C",
+      "JavaScript",
+      "Ruby",
+      "Shell"
+    ],
+    "documentation": [
+      "English",
+      "Arabic",
+      "Chinese \u00e4\u00f3\u00f1 Simplified",
+      "Czech",
+      "Danish",
+      "Dutch",
+      "Estonian",
+      "Finnish",
+      "French",
+      "German",
+      "Italian",
+      "Norwegian",
+      "Polish",
+      "Portuguese",
+      "Romanian",
+      "Russian",
+      "Slovak",
+      "Spanish",
+      "Swedish",
+      "Vietnamese"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

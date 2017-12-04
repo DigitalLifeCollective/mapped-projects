@@ -1,0 +1,30 @@
+{
+  "project": "Hyperboria",
+  "website": "hyperboria.net",
+  "description": "A peer-to-peer IPv6 network with automatic end-to-end encryption, distributed IP address allocation, and DHT-based Source Routing.",
+  "logoURL": "https://hyperboria.net/logo.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "consensus"
+  ],
+  "affiliation": "",
+  "license": [
+    ""
+  ],
+  "repoURL": "github.com/hyperboria",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "cjdns",
+    "tags": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "project": "Askemos",
+  "website": "askemos.org",
+  "description": "Askemos is a concept and core set of principles (in technical terms a protocol) that eliminates the need for trust in physical machines or unethical people. It was published in the hope the protocol may be adopted and incorporated into future software. This enables trustworthy software to be designed that vigorously protects inalienable human rights.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "consensus"
+  ],
+  "affiliation": "",
+  "license": [
+    "Modified BSD",
+    "GNU GPL v3"
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

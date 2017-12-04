@@ -1,0 +1,31 @@
+{
+  "project": "IPFS",
+  "website": "ipfs.io",
+  "description": "IPFS (the InterPlanetary File System) is a new hypermedia distribution protocol, addressed by content and identities. IPFS enables the creation of completely distributed applications. It aims to make the web faster, safer, and more open.",
+  "logoURL": "https://pbs.twimg.com/profile_images/570059057197625344/h4Bvj_8p_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Protocol Labs",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/ipfs",
+  "techDetails": {
+    "languages": [
+      "Go",
+      "JavaScript",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

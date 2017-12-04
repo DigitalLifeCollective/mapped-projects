@@ -1,0 +1,30 @@
+{
+  "project": "DNSChain",
+  "website": "github.com/okTurtles/dnschain",
+  "description": "DNSChain offers a free and secure decentralized alternative while remaining backwards compatible with traditional DNS.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "okTurtles Foundation",
+  "license": [
+    "MPL v2.0"
+  ],
+  "repoURL": "github.com/okTurtles/dnschain",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

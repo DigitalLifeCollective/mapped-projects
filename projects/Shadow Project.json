@@ -1,0 +1,32 @@
+{
+  "project": "Shadow Project",
+  "website": "shadowproject.io",
+  "description": "The Shadow Project is a decentralized peer-to-peer platform, created under an open source license, featuring a built-in cryptocurrency, end-to-end encrypted messaging and decentralized marketplace. The decentralized network aims to provide anonymity and privacy for everyone through a simple user-friendly interface by taking care of all the advanced cryptography in the background.",
+  "logoURL": "https://pbs.twimg.com/profile_images/510079376583430144/T_m1eXy-_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      "C++",
+      "JavaScript",
+      "Python",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project": "Mailvelope",
+  "website": "mailvelope.com",
+  "description": "An easy-to-use web-browser extension which brings OpenPGP encryption to webmail services such as Gmail\u00e4\u008b\u00a2, Yahoo\u00e4\u008b\u00a2 and others. With its unintrusive interface fully integrated into your webmail service, Mailvelope instantly secures your personal and professional email communications.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/mailvelope",
+  "techDetails": {
+    "languages": [
+      "JavaScript"
+    ],
+    "documentation": [
+      "English",
+      "German"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

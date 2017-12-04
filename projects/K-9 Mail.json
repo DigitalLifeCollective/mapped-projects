@@ -1,0 +1,28 @@
+{
+  "project": "K-9 Mail",
+  "website": "k9mail.github.io",
+  "description": "An open source email client for Android with many advanced features. Supports GPG encryption.",
+  "logoURL": "https://s3.amazonaws.com/media.jetstrap.com/K9EQM129TDe09W1t98i2_K-9_Mail_512x512.png",
+  "email": "",
+  "purpose": [
+    "privacy"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    ""
+  ],
+  "repoURL": "github.com/k9mail",
+  "techDetails": {
+    "languages": [
+      "Java"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

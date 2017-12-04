@@ -1,0 +1,33 @@
+{
+  "project": "Named Data Networking",
+  "website": "named-data.net",
+  "description": "Developing a new Internet architecture that can capitalize on strengths \u00e4\u00f3\u00ee and address weaknesses \u00e4\u00f3\u00ee of the Internet\u00e4\u00f3\u00bbs current host-based, point-to-point communication architecture in order to naturally accommodate emerging patterns of communication. By naming data instead of their locations, NDN transforms data into a first-class entity. The current Internet secures the data container. NDN secures the contents, a design choice that decouples trust in data from trust in hosts, enabling several radically scalable communication mechanisms such as automatic caching to optimize bandwidth. ",
+  "logoURL": "https://named-data.net/wp-content/uploads/cropped-20130722_Logo2.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/named-data",
+  "techDetails": {
+    "languages": [
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

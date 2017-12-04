@@ -1,0 +1,29 @@
+{
+  "project": "Elements Project",
+  "website": "elementsproject.org",
+  "description": "Extend Bitcoin with composable building blocks, deployed to your very own sidechain. As open source, protocol-level technology, developers can use Elements to extend the functionality of Bitcoin and explore new applications of the Blockchain.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Blockstream",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/ElementsProject",
+  "techDetails": {
+    "languages": [
+      "C",
+      "C++"
+    ],
+    "documentation": [
+      ""
+    ],
+    "requires": "Bitcoin",
+    "tags": ""
+  }
+}

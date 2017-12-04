@@ -1,0 +1,29 @@
+{
+  "project": "Metamaps",
+  "website": "metamaps.cc",
+  "description": "A free and open source platform that supports real-time sense-making, distributed collaboration, and the creative intelligence of individuals, organizations and communities.",
+  "logoURL": "https://pbs.twimg.com/profile_images/539300245029392385/dJ1bwnw7_400x400.jpeg",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "github.com/metamaps",
+  "techDetails": {
+    "languages": [
+      "JavaScript",
+      "Ruby"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

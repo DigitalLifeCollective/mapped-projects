@@ -1,0 +1,33 @@
+{
+  "project": "Hyperledger",
+  "website": "hyperledger.org",
+  "description": "An open source collaborative effort created to advance cross-industry blockchain technologies. It is a global collaboration including leaders in finance, banking, IoT, supply chain, manufacturing and technology.",
+  "logoURL": "https://pbs.twimg.com/profile_images/697035383679295488/_6vl74tM_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "Linux Foundation",
+  "license": [
+    "Apache License v2"
+  ],
+  "repoURL": "github.com/hyperledger",
+  "techDetails": {
+    "languages": [
+      "Go",
+      "Java",
+      "JavaScript",
+      "Python",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

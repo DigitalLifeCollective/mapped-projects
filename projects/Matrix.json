@@ -1,0 +1,32 @@
+{
+  "project": "Matrix",
+  "website": "matrix.org",
+  "description": "An open standard for decentralised communication, providing simple HTTP APIs and open source reference implementations for securely distributing and persisting JSON over an open federation of servers.",
+  "logoURL": "https://pbs.twimg.com/profile_images/500400952029888512/yI0qtFi7_400x400.png",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "Apache License v2"
+  ],
+  "repoURL": "github.com/matrix-org",
+  "techDetails": {
+    "languages": [
+      "C",
+      "Go",
+      "JavaScript",
+      "Python"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

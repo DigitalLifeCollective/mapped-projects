@@ -1,0 +1,29 @@
+{
+  "project": "Beaker",
+  "website": "beakerbrowser.com",
+  "description": "Beaker is an experimental browser with builtin hosting and peer-to-peer Web protocols.",
+  "logoURL": "https://pbs.twimg.com/profile_images/779394213062451202/3wulCYBi_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/beakerbrowser",
+  "techDetails": {
+    "languages": [
+      "C++",
+      "JavaScript"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

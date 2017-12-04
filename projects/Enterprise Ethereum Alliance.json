@@ -1,0 +1,30 @@
+{
+  "project": "Enterprise Ethereum Alliance",
+  "website": "entethalliance.org",
+  "description": "Learning from and building upon Ethereum to define enterprise-grade software capable of handling the most complex, highly demanding applications at the speed of business.",
+  "logoURL": "https://pbs.twimg.com/profile_images/836329011772981248/SdZwFSMN_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "consensus"
+  ],
+  "affiliation": "",
+  "license": [
+    "GNU GPL v3"
+  ],
+  "repoURL": "",
+  "techDetails": {
+    "languages": [
+      ""
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Ethereum",
+    "tags": ""
+  }
+}

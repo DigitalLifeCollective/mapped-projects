@@ -1,0 +1,35 @@
+{
+  "project": "Fermat Project",
+  "website": "fermat.org",
+  "description": "We envision a world where people can freely interact electronically without unnecessary third party interferences. Both for social and commercial interactions. No spying, no censorship, no taking a cut on private transactions between individuals, no mining of private information, no unnecessary middlemen. A world where people are more important than entities like companies and states, a world where people have the choices and the means to interact directly between each other.",
+  "logoURL": "https://pbs.twimg.com/profile_images/726673597503172612/fjKNfYb0_400x400.jpg",
+  "email": "",
+  "purpose": [
+    "privacy",
+    "decentralization"
+  ],
+  "type": [
+    "social",
+    "networking",
+    "consensus"
+  ],
+  "affiliation": "",
+  "license": [
+    "MIT License",
+    "Proprietary commercial software license"
+  ],
+  "repoURL": "github.com/Fermat-ORG",
+  "techDetails": {
+    "languages": [
+      "Go",
+      "Java",
+      "JavaScript",
+      "Shell"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "",
+    "tags": ""
+  }
+}

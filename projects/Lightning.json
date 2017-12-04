@@ -1,0 +1,29 @@
+{
+  "project": "Lightning",
+  "website": "lightning.network",
+  "description": "The Lightning Network is a decentralized system for \rinstant, high-volume micropayments that removes the \rrisk of delegating custody of funds to trusted\rthird parties.",
+  "logoURL": "",
+  "email": "",
+  "purpose": [
+    "decentralization"
+  ],
+  "type": [
+    "social"
+  ],
+  "affiliation": "",
+  "license": [
+    "MIT License"
+  ],
+  "repoURL": "github.com/ElementsProject/lightning",
+  "techDetails": {
+    "languages": [
+      "C",
+      "C++"
+    ],
+    "documentation": [
+      "English"
+    ],
+    "requires": "Bitcoin",
+    "tags": ""
+  }
+}
