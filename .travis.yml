@@ -9,5 +9,5 @@ install:
 
 after_success:
   - git add .
-  - git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+  - git commit --message "Travis build"
   - git push
