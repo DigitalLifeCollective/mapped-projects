@@ -6,6 +6,3 @@ script:
 
 install:
   - pip install -r mapbuild/requirements.txt
-
-after_success:
-  - sh -x mapbuild/push.sh

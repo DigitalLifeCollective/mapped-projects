@@ -1,12 +1,14 @@
 from kinto_http import Client
 import json
 import os
+import subprocess
 
 username = os.environ['KINTO_USER']
 password = os.environ['KINTO_PASSWORD']
 server_url = os.environ['KINTO_URL']
 map_id = os.environ['MAP_ID']
-
+build_number = os.environ['TRAVIS_BUILD_NUMBER']
+github_token = os.environ['GITHUB_TOKEN']
 
 cwd = os.getcwd()
 
@@ -95,3 +97,14 @@ a = getmap(map_id)
 print(a)
 
 
+command = 'git add .'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+
+command = f'git commit --message "Travis build: {build_number}"'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+
+command = f'git push  https://${github_token}@github.com/DigitalLifeCollective/mapped-projects.git development'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
