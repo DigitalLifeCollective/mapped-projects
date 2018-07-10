@@ -8,6 +8,11 @@ server_url = os.environ['KINTO_URL']
 map_id = os.environ['MAP_ID']
 
 
+cwd = os.getcwd()
+
+print(cwd)
+
+
 # pull the files from kinto and format the fields
 
 def getmap(collection_id):
@@ -53,7 +58,7 @@ def getmap(collection_id):
         del record['map contact']
 
         # write out the files
-        with open(f'../projects/{label}.json', 'w') as outfile:
+        with open(f'projects/{label}.json', 'w') as outfile:
             json.dump(record, outfile)
 
     make_map_json()
@@ -61,7 +66,7 @@ def getmap(collection_id):
 
 
 def make_map_json():
-    path = '../projects'
+    path = 'projects'
     project_list = []
     output_dict = {}
 
@@ -76,7 +81,7 @@ def make_map_json():
         print(file['label'])
 
     output_dict['elements'] = project_list
-    output_file = '../docs/digitallifecollective.json'
+    output_file = 'docs/digitallifecollective.json'
     with open(output_file, 'w') as f:
         json.dump(output_dict, f)
         print("writing file")
