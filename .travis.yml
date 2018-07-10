@@ -7,11 +7,5 @@ script:
 install:
   - pip install -r mapbuild/requirements.txt
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  file: "docs/digitallifecollective.json"
-  keep-history: true
-  on:
-    branch: development
+after_success:
+  - .mapbuild/push.sh
