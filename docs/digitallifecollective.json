@@ -1,0 +1,39 @@
+{
+   "project":"Digital Life Collective",
+   "website":"https://diglife.com",
+   "description":"The Digital Life Collective develops, funds and supports technologies created with only the individual's needs in mind.",
+  "tags":[
+      "collective",
+      "co-op"
+   ],
+  "type":[
+      "social media",
+      "publishing"
+   ],
+   "purpose":[
+      "privacy",
+      "trust"
+   ],
+   "license":[
+      "MIT",
+      "Apache 2"
+   ],
+   "repoURL":"https://github.com/orgs/DigitalLifeCollective",
+   "logoURL":"https://diglife.com/images/logo.png",
+   "twitter":"@digitallifecollective",
+   "email":"info@diglife.com",
+   "techDetails":{
+      "languages":[
+         "python",
+         "java"
+      ],
+      "platforms":[
+         "mattermost",
+         "ghost"
+      ],
+      "documentation":[
+         "english",
+         "german"
+      ]
+   }
+}
