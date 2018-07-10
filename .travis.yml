@@ -10,4 +10,4 @@ install:
 after_success:
   - git add .
   - git commit --message "Travis build"
-  - git push
+  - git push origin HEAD:development
