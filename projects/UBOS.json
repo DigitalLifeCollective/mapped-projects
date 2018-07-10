@@ -1,0 +1,45 @@
+{
+   "project":"UBOS",
+   "website":"https://ubos.net/",
+   "description":"Linux Distro for Personal Servers and Indie IoT Devices",
+   "logoURL":"https://ubos.net/images/ubos-160x160.png",
+   "twitter":"@uboslinux",
+   "purpose":[
+      "decentralization",
+      "privacy",
+      "trust"
+   ],
+   "type":[
+      "social",
+      "semantic",
+      "networking",
+      "consensus"
+   ],
+   "affliation":[
+   ],
+   "license":[
+      "various"
+   ],
+   "repoURL":"https://github.com/uboslinux/",
+
+   "techDetails":{
+      "languages":[
+         "perl",
+         "python",
+         "php",
+         "ruby",
+         "java"
+      ],
+      "documentation":[
+         "english",
+      ]
+   },
+   "requires":[
+      "PC",
+      "cloud server",
+      "Raspberry Pi"
+   ],
+   "tags":[
+      "linux"
+   ]
+}
