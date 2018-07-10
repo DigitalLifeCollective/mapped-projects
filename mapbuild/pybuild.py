@@ -16,7 +16,8 @@ def getmap(collection_id):
     try:
         records = client.get_records(bucket='formdata', collection=collection_id)
     except:
-        return f'There was a problen getting the information from kinto'
+        return 'There was a problem getting the information from kinto'
+
     for record in records:
         label = record['label']
         print(f'Processing JSON file for: {label}')
@@ -52,13 +53,15 @@ def getmap(collection_id):
         del record['map contact']
 
         # write out the files
-        with open(f'projects/{label}.json', 'w') as outfile:
+        with open(f'../projects/{label}.json', 'w') as outfile:
             json.dump(record, outfile)
 
+    make_map_json()
     return "All files processed"
 
+
 def make_map_json():
-    path = 'projects'
+    path = '../projects'
     project_list = []
     output_dict = {}
 
@@ -73,7 +76,7 @@ def make_map_json():
         print(file['label'])
 
     output_dict['elements'] = project_list
-    output_file = 'docs/digitallifecollective.json'
+    output_file = '../docs/digitallifecollective.json'
     with open(output_file, 'w') as f:
         json.dump(output_dict, f)
         print("writing file")
@@ -86,4 +89,4 @@ def remove_parens(text_string):
 a = getmap(map_id)
 print(a)
 
-make_map_json()
+
