@@ -1,0 +1,8 @@
+language: python
+python:
+- '3.6'
+script:
+- python pybuild.py
+
+install:
+  - pip install -r mapbuild/requirements.txt
