@@ -2,7 +2,7 @@ language: python
 python:
 - '3.6'
 script:
-- python pybuild.py
+- python mapbuild/pybuild.py
 
 install:
   - pip install -r mapbuild/requirements.txt
