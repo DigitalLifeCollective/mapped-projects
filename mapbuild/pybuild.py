@@ -57,11 +57,33 @@ def getmap(collection_id):
 
     return "All files processed"
 
+def make_map_json():
+    path = 'projects'
+    project_list = []
+    output_dict = {}
+
+    jsonfile_list = [f for f in os.listdir(path)]
+
+    print(jsonfile_list)
+
+    for file in jsonfile_list:
+        file_path = f'{path}/{file}'
+        file = json.load(open(file_path))
+        project_list.append(file)
+        print(file['label'])
+
+    output_dict['elements'] = project_list
+    output_file = 'docs/digitallifecollective.json'
+    with open(output_file, 'w') as f:
+        json.dump(output_dict, f)
+        print("writing file")
+
 
 def remove_parens(text_string):
     return text_string.split("(", maxsplit=1)[0].strip()
 
 
 a = getmap(map_id)
-
 print(a)
+
+make_map_json()
