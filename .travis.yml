@@ -8,6 +8,4 @@ install:
   - pip install -r mapbuild/requirements.txt
 
 after_success:
-  - git add .
-  - git commit --message "Travis build"
-  - git push origin HEAD:development
+  - .mapbuild/push.sh
