@@ -97,7 +97,7 @@ a = getmap(map_id)
 print(a)
 
 
-command = 'git clone https://github.com/DigitalLifeCollective/mapped-projects.git'
+command = 'git clone https://github.com/ppbpdx/digi'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 
@@ -127,5 +127,3 @@ output, error = process.communicate()
 command = 'git push origin/development -fq'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
-print(output)
-print(error)
