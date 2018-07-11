@@ -33,7 +33,7 @@ def getmap(collection_id):
         description1 = record['Description1']
         description2 = record['Description2']
         video = record['video src']
-        markdown = f'#{tagline}\n## About {label}\n![About {label}({video})\n### {description1}\n{description2}"'
+        markdown = f'#{tagline}\n## About {label}\n![About {label}]({video})\n### {description1}\n{description2}'
         record['description'] = markdown
 
         stack_list = []
