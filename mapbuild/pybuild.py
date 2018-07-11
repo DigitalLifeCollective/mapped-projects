@@ -126,6 +126,6 @@ output, error = process.communicate()
 
 
 
-command = 'git push origin/development -fq'
+command = 'git push origin/master -fq'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
