@@ -97,14 +97,24 @@ a = getmap(map_id)
 print(a)
 
 
-command = 'git add .'
+command = 'git add -n .'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
+print(output)
+print(error)
 
-command = f'git commit --message "Travis build: {build_number}"'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
 
-command = f'git push  https://${github_token}@github.com/DigitalLifeCollective/mapped-projects.git development'
+
+command = 'git commit -m \"travis update\"'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
+print(output)
+print(error)
+
+
+
+command = 'git push'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+print(output)
+print(error)
