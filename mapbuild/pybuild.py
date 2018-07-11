@@ -97,13 +97,19 @@ a = getmap(map_id)
 print(a)
 
 
-command = 'git checkout -b build-branch'
+command = 'git clone https://github.com/DigitalLifeCollective/mapped-projects.git'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
 print(error)
 
-command = 'git add -v -f .'
+command = 'cp projects/*.json mapped-projects/projects'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+print(output)
+print(error)
+
+command = 'cd mapped-projects && git add -v -f .'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
@@ -111,7 +117,7 @@ print(error)
 
 
 
-command = 'git commit -m \"travis update [skip ci]\"'
+command = 'cd mapped-projects && git commit -m \"travis update [skip ci]\"'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
@@ -119,7 +125,7 @@ print(error)
 
 
 
-command = 'git push origin/development -fq'
+command = 'cd mapped-projects && git push origin/development -fq'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
