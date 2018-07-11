@@ -97,7 +97,7 @@ a = getmap(map_id)
 print(a)
 
 
-command = 'git add -n .'
+command = 'git add --all'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
