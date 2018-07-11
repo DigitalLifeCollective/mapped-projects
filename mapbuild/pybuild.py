@@ -100,34 +100,27 @@ print(a)
 command = 'git clone https://github.com/DigitalLifeCollective/mapped-projects.git'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
-print(output)
-print(error)
+
 
 command = 'ls'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
-print(output)
-print(error)
+
 
 command = 'cp projects/*.json mapped-projects/projects'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
-print(output)
-print(error)
 
-command = 'cd mapped-projects && git add -v -f .'
+
+command = 'ls mapped-projects/projects'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
-print(output)
-print(error)
 
 
 
-command = 'cd mapped-projects && git commit -m \"travis update [skip ci]\"'
+command = 'git commit -m \"travis update [skip ci]\"'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
-print(output)
-print(error)
 
 
 
