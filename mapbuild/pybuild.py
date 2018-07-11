@@ -97,7 +97,7 @@ a = getmap(map_id)
 print(a)
 
 
-command = 'git add -v .'
+command = 'git add -v -f .'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
@@ -105,7 +105,7 @@ print(error)
 
 
 
-command = 'git commit -m \"travis update\"'
+command = 'git commit -m \"travis update [skip ci]\"'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
@@ -113,7 +113,7 @@ print(error)
 
 
 
-command = 'git push -n origin/development'
+command = 'git push origin/development -fq'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
