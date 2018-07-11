@@ -97,6 +97,12 @@ a = getmap(map_id)
 print(a)
 
 
+command = 'ls -al'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+print(output)
+print(error)
+
 command = 'git add -v -f .'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
