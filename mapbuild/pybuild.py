@@ -116,7 +116,9 @@ command = 'ls mapped-projects/projects'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 
-
+command = 'git add .'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
 
 command = 'git commit -m \"travis update [skip ci]\"'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
