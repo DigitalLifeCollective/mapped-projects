@@ -1,11 +1,18 @@
 from kinto_http import Client
 import json
 import os
+import subprocess
 
 username = os.environ['KINTO_USER']
 password = os.environ['KINTO_PASSWORD']
 server_url = os.environ['KINTO_URL']
 map_id = os.environ['MAP_ID']
+
+
+
+cwd = os.getcwd()
+
+print(cwd)
 
 
 # pull the files from kinto and format the fields
@@ -16,7 +23,8 @@ def getmap(collection_id):
     try:
         records = client.get_records(bucket='formdata', collection=collection_id)
     except:
-        return f'There was a problen getting the information from kinto'
+        return 'There was a problem getting the information from kinto'
+
     for record in records:
         label = record['label']
         print(f'Processing JSON file for: {label}')
@@ -55,7 +63,30 @@ def getmap(collection_id):
         with open(f'projects/{label}.json', 'w') as outfile:
             json.dump(record, outfile)
 
+    make_map_json()
     return "All files processed"
+
+
+def make_map_json():
+    path = 'projects'
+    project_list = []
+    output_dict = {}
+
+    jsonfile_list = [f for f in os.listdir(path)]
+
+    print(jsonfile_list)
+
+    for file in jsonfile_list:
+        file_path = f'{path}/{file}'
+        file = json.load(open(file_path))
+        project_list.append(file)
+        print(file['label'])
+
+    output_dict['elements'] = project_list
+    output_file = 'docs/digitallifecollective.json'
+    with open(output_file, 'w') as f:
+        json.dump(output_dict, f)
+        print("writing file")
 
 
 def remove_parens(text_string):
@@ -63,5 +94,38 @@ def remove_parens(text_string):
 
 
 a = getmap(map_id)
-
 print(a)
+
+#
+# command = 'git clone https://github.com/ppbpdx/digi'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+# command = 'ls'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+# command = 'cp projects/*.json mapped-projects/projects'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+# command = 'ls mapped-projects/projects'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+# command = 'git add .'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+# command = 'git commit -m \"travis update [skip ci]\"'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+#
+# command = 'git push origin/master'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()

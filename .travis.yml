@@ -3,6 +3,17 @@ python:
 - '3.6'
 script:
 - python mapbuild/pybuild.py
-
 install:
-  - pip install -r mapbuild/requirements.txt
+- pip install -r mapbuild/requirements.txt
+
+after_script:
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - git add .
+  - git commit -m "travis update [skip ci]"
+  - git push origin HEAD:development
+
+
+env:
+  global:
+    secure: CQjdqfrafFn0/9F4T+sWpaO3vefWq4/Zhgnh3s0SoRTFo2XIafTCULT2I89yWbKO5jbWkM2zUSjaEDzCNGqwHY8qhLHNm68Z30wpWQVMxo625daMxrM+QceQ7Ck6d021NVYJvqF3loDLFGDSb2IGozp2/sp/k2eEAjNmG3C2KBRxpvAworVVlSMjnivzWZswnf7PVR77mTcuW7jqqwcwRXR9r8Sst2/E6F+acCDzi4R25mHCk0jk7PvEixFEJcXl8m9C7shb0EvvDWxhQdbEqS3Sh8/colWU1htD9PoPkYZehysYI7dDWbfL6re0hCbow2wQLcYvcdDftSKotWNjajhC5lj58LHHAiUSP8SU19h1NXrN7KXXB7D9wpNqV4x3p7FKJvSTGq0kcMz1xPk2HYnGhJN6UGS2ZYio5tQbWYN59u0jPpVt7aO7W+o5COZZZhMCoamSlPAYnUrfFIkOGGyUpzhjGzYzzKz29Cbix4bDhTav7hM6Z30KQK9bxX/cLBe2ZiIfU3/I5yvz/6yh+6ptQeKAtluXhyvk8jACdMDt/2VzNhMF0PRWhxN4vY6EaaaJrlogO2nOapPV6YPY6ogceRJhxnS62tUkBohb9NUQkXdhtUPGAgnm+IZocOk21wD+iDYpM37coCE5/89V8MFm12KanJLlWTouXbiB5xA=
