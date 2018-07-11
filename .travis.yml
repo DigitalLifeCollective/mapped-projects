@@ -11,7 +11,7 @@ after_script:
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git add .
   - git commit -m "travis update [skip ci]"
-  - git push
+  - git push origin HEAD:development
 
 
 env:
