@@ -103,6 +103,12 @@ output, error = process.communicate()
 print(output)
 print(error)
 
+command = 'ls'
+process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+output, error = process.communicate()
+print(output)
+print(error)
+
 command = 'cp projects/*.json mapped-projects/projects'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
