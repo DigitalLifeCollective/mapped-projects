@@ -7,8 +7,8 @@ username = os.environ['KINTO_USER']
 password = os.environ['KINTO_PASSWORD']
 server_url = os.environ['KINTO_URL']
 map_id = os.environ['MAP_ID']
-build_number = os.environ['TRAVIS_BUILD_NUMBER']
-github_token = os.environ['GITHUB_TOKEN']
+
+
 
 cwd = os.getcwd()
 
