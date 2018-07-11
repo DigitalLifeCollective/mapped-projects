@@ -96,36 +96,36 @@ def remove_parens(text_string):
 a = getmap(map_id)
 print(a)
 
-
-command = 'git clone https://github.com/ppbpdx/digi'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
-
-
-command = 'ls'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
-
-
-command = 'cp projects/*.json mapped-projects/projects'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
-
-
-command = 'ls mapped-projects/projects'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
-
-command = 'git add .'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
-
-command = 'git commit -m \"travis update [skip ci]\"'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
-
-
-
-command = 'git push origin/master -fq'
-process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
-output, error = process.communicate()
+#
+# command = 'git clone https://github.com/ppbpdx/digi'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+# command = 'ls'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+# command = 'cp projects/*.json mapped-projects/projects'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+# command = 'ls mapped-projects/projects'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+# command = 'git add .'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+# command = 'git commit -m \"travis update [skip ci]\"'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
+#
+#
+#
+# command = 'git push origin/master'
+# process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
+# output, error = process.communicate()
