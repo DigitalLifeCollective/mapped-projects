@@ -97,7 +97,7 @@ a = getmap(map_id)
 print(a)
 
 
-command = 'ls -al'
+command = 'git remote -v'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
