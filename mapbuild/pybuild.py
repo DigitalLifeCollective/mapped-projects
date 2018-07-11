@@ -124,7 +124,7 @@ output, error = process.communicate()
 
 
 
-command = 'cd mapped-projects && git push origin/development -fq'
+command = 'git push origin/development -fq'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
