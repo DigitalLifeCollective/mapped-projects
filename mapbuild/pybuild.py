@@ -113,7 +113,7 @@ print(error)
 
 
 
-command = 'git push -n'
+command = 'git push -n origin/development'
 process = subprocess.Popen(command.split(), stdout=subprocess.PIPE)
 output, error = process.communicate()
 print(output)
