@@ -9,9 +9,10 @@ install:
 after_script:
   - git config credential.helper "store --file=.git/credentials"
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - git checkout -b ${TRAVIS_BUILD_NUMBER}
   - git add .
-  - git commit -m "travis update [skip ci]"
-  - git push origin HEAD:development
+  - git commit -m "travis update ${TRAVIS_BUILD_NUMBER} [skip ci]"
+  - git push origin HEAD:${TRAVIS_BUILD_NUMBER}
 
 
 env:
