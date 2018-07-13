@@ -7,7 +7,12 @@ install:
 - pip install -r mapbuild/requirements.txt
 
 after_script:
-  - ./push.sh
+  - git config credential.helper "store --file=.git/credentials"
+  - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+  - git checkout -b ${}
+  - git add .
+  - git commit -m "travis update [skip ci]"
+  - git push origin HEAD:development
 
 
 env:
