@@ -9,7 +9,7 @@ setup_git() {
 
 commit_files() {
   git checkout -b travis-build:$TRAVIS_BUILD_NUMBER
-  git add .
+  git add --all .
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [skip ci]"
 }
 
