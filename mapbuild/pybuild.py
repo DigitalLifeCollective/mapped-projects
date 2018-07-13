@@ -1,14 +1,13 @@
 from kinto_http import Client
 import json
 import os
+
 # import subprocess
 
 username = os.environ['KINTO_USER']
 password = os.environ['KINTO_PASSWORD']
 server_url = os.environ['KINTO_URL']
 map_id = os.environ['MAP_ID']
-
-
 
 cwd = os.getcwd()
 
@@ -55,6 +54,13 @@ def getmap(collection_id):
                 network_list.append(remove_parens(record['Network Topology']))
             record['Network Topology'] = network_list
 
+        # these are fileds that have comma sep strings entered by the users
+        string_fields = ['Tags', 'Suggested Groups', 'Relies On', 'Suggested Areas of Work', 'Regional Traction',
+                         'Suggested Values', 'Additions']
+
+        for key in string_fields:
+            record[key] = string_to_list(data_dict=record, key=key, delimiter=',')
+
         # remove contact and email for privacy
         del record['contact email']
         del record['map contact']
@@ -91,6 +97,17 @@ def make_map_json():
 
 def remove_parens(text_string):
     return text_string.split("(", maxsplit=1)[0].strip()
+
+
+def string_to_list(data_dict, key, delimiter):
+    if ',' in data_dict[key]:
+        text_string = data_dict[key]
+        text_string = text_string.replace(" ", "")
+        new_list = text_string.split(delimiter)
+
+        return new_list
+    else:
+        return data_dict[key]
 
 
 a = getmap(map_id)
