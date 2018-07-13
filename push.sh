@@ -8,16 +8,13 @@ setup_git() {
 }
 
 commit_files() {
-  git checkout -b travis-build-$TRAVIS_BUILD_NUMBER
+  git checkout -b travis-build
   git add --all .
-  git commit --message "Travis build: $TRAVIS_BUILD_NUMBER [skip ci]"
+  git commit --message "Travis build [skip ci]"
 }
 
 upload_files() {
-
-
-  git remote add origin-pages https://${GH_TOKEN}@github.com/DigitalLifeCollective/mapped-projects/.git > /dev/null 2>&1
-  git push --quiet --set-upstream origin HEAD:travis-build-$TRAVIS_BUILD_NUMBER --force
+  git push origin HEAD:travis-build-travis-build
 }
 
 setup_git
