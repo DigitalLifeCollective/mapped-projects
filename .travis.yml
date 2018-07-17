@@ -11,7 +11,7 @@ after_script:
   - echo "https://${GH_TOKEN}:@github.com" > .git/credentials
   - git checkout -b ${TRAVIS_BUILD_NUMBER}
   - git add .
-  - git commit -m "travis update ${TRAVIS_BUILD_NUMBER} [skip ci]"
+  - git commit -m "travis update [skip ci]"
   - git push origin HEAD:${TRAVIS_BUILD_NUMBER}
 
 
