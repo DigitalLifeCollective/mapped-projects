@@ -1,1 +1,76 @@
-{"URL":"https://holochain.org/","Tags":"","Group":["General public","Software developers"],"Image":"https://pbs.twimg.com/profile_images/929461885551939584/N3wwSCJe_400x400.jpg","Stack":["social","legal","semantic","consensus"],"label":"Holochain","schema":1531157324751,"Maturity":"alpha","tag line":"Think outside the blocks","Additions":"","Relies On":"libp2p,Rust,WebAssembly,Multiformats","video src":"https://www.youtube.com/embed/hyCtYrHJebs","video url":"https://www.youtube.com/watch?v=hyCtYrHJebs","Encryption":"select one","Common name":"","Description1":"[Holochain](https://holochain.org/) is a software framework for creating fully distributed/peer-to-peer applications that are both highly scalable and cryptographically secured.","Description2":"For more details visit the [Holochain](https://holochain.org/) website and/or read our [whitepaper](https://holochain.org/whitepaper):\n***Holochain: scalable agent-centric distributed computing:***\n> *Whitepaper ABSTRACT : We present a scalable, agent-centric distributed computing platform. We use a formalism to characterize distributed systems, show how it applies to some existing distributed systems, and demonstrate the benefits of shifting from a data-centric to an agent-centric model. We present a detailed formal specification of the Holochain system, along with an analysis of its systemic integrity, capacity for evolution, total system computational complexity, implications for use-cases, and current implementation status.*","Organisation":"Holo","Project Type":["Software"],"Areas of Work":["Collaboration","Cryptography","Currency","Distributed Ledgers","Identity","IoT","Self-hosting","Smart Contracts","Storage"],"Open feedback":"","Community Info":"","GitHub Profile":"https://github.com/holochain","Main Repository":"","Twitter Profile":"holochain","Network Topology":["distributed"],"Suggested Groups":["Entrepreneurs","SocialArchitects","CurrencyDesigners"],"Suggested Values":"agent-centric","Download Required":"yes","GitHub Repository":"https://github.com/holochain/holochain-proto","Participation URL":"https://chat.holochain.org","Regional Traction":["Canada","UnitedStates","Germany","Australia","India","UnitedKingdom","Russia"],"Software Licenses":["GNU GPL v3"],"Suggested Areas of Work":"","id":"b217de54-e877-4a4b-9d6e-d56f29c0f7d6","last_modified":1531535062843,"element type":"Project","description":"#Think outside the blocks\n##About Holochain\n![About Holochain](https://www.youtube.com/embed/hyCtYrHJebs)\n ###[Holochain](https://holochain.org/) is a software framework for creating fully distributed/peer-to-peer applications that are both highly scalable and cryptographically secured.\nFor more details visit the [Holochain](https://holochain.org/) website and/or read our [whitepaper](https://holochain.org/whitepaper):\n***Holochain: scalable agent-centric distributed computing:***\n> *Whitepaper ABSTRACT : We present a scalable, agent-centric distributed computing platform. We use a formalism to characterize distributed systems, show how it applies to some existing distributed systems, and demonstrate the benefits of shifting from a data-centric to an agent-centric model. We present a detailed formal specification of the Holochain system, along with an analysis of its systemic integrity, capacity for evolution, total system computational complexity, implications for use-cases, and current implementation status.*"}
+{
+  "URL": "https://holochain.org/",
+  "Tags": "",
+  "Group": [
+    "General public",
+    "Software developers"
+  ],
+  "Image": "https://pbs.twimg.com/profile_images/929461885551939584/N3wwSCJe_400x400.jpg",
+  "Stack": [
+    "social",
+    "legal",
+    "semantic",
+    "consensus"
+  ],
+  "label": "Holochain",
+  "schema": 1531157324751,
+  "Maturity": "alpha",
+  "tag line": "Think outside the blocks",
+  "Additions": "",
+  "Relies On": ["libp2p","Rust","WebAssembly","Multiformats"],
+  "video src": "https://www.youtube.com/embed/hyCtYrHJebs",
+  "video url": "https://www.youtube.com/watch?v=hyCtYrHJebs",
+  "Encryption": "select one",
+  "Common name": "",
+  "Description1": "[Holochain](https://holochain.org/) is a software framework for creating fully distributed/peer-to-peer applications that are both highly scalable and cryptographically secured.",
+  "Description2": "For more details visit the [Holochain](https://holochain.org/) website and/or read our [whitepaper](https://holochain.org/whitepaper):\n***Holochain: scalable agent-centric distributed computing:***\n> *Whitepaper ABSTRACT : We present a scalable, agent-centric distributed computing platform. We use a formalism to characterize distributed systems, show how it applies to some existing distributed systems, and demonstrate the benefits of shifting from a data-centric to an agent-centric model. We present a detailed formal specification of the Holochain system, along with an analysis of its systemic integrity, capacity for evolution, total system computational complexity, implications for use-cases, and current implementation status.*",
+  "Organisation": "Holo",
+  "Project Type": [
+    "Software"
+  ],
+  "Areas of Work": [
+    "Collaboration",
+    "Cryptography",
+    "Currency",
+    "Distributed Ledgers",
+    "Identity",
+    "IoT",
+    "Self-hosting",
+    "Smart Contracts",
+    "Storage"
+  ],
+  "Open feedback": "",
+  "Community Info": "",
+  "GitHub Profile": "https://github.com/holochain",
+  "Main Repository": "",
+  "Twitter Profile": "holochain",
+  "Network Topology": [
+    "distributed"
+  ],
+  "Suggested Groups": [
+    "Entrepreneurs",
+    "SocialArchitects",
+    "CurrencyDesigners"
+  ],
+  "Suggested Values": "agent-centric",
+  "Download Required": "yes",
+  "GitHub Repository": "https://github.com/holochain/holochain-proto",
+  "Participation URL": "https://chat.holochain.org",
+  "Regional Traction": [
+    "Canada",
+    "UnitedStates",
+    "Germany",
+    "Australia",
+    "India",
+    "UnitedKingdom",
+    "Russia"
+  ],
+  "Software Licenses": [
+    "GNU GPL v3"
+  ],
+  "Suggested Areas of Work": "",
+  "id": "b217de54-e877-4a4b-9d6e-d56f29c0f7d6",
+  "last_modified": 1531535062843,
+  "element type": "Project",
+  "description": "#Think outside the blocks\n##About Holochain\n![About Holochain](https://www.youtube.com/embed/hyCtYrHJebs)\n ###[Holochain](https://holochain.org/) is a software framework for creating fully distributed/peer-to-peer applications that are both highly scalable and cryptographically secured.\nFor more details visit the [Holochain](https://holochain.org/) website and/or read our [whitepaper](https://holochain.org/whitepaper):\n***Holochain: scalable agent-centric distributed computing:***\n> *Whitepaper ABSTRACT : We present a scalable, agent-centric distributed computing platform. We use a formalism to characterize distributed systems, show how it applies to some existing distributed systems, and demonstrate the benefits of shifting from a data-centric to an agent-centric model. We present a detailed formal specification of the Holochain system, along with an analysis of its systemic integrity, capacity for evolution, total system computational complexity, implications for use-cases, and current implementation status.*"
+}
