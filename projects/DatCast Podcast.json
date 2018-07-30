@@ -1,1 +1,63 @@
-{"URL": "https://dat-cast.hashbase.io/", "Tags": "", "Group": ["Academics", "Artists", "Designers", "General public", "Librarians", "Scientists", "Software developers"], "Image": "https://dat-cast.hashbase.io/img/DCUP0.jpg", "Stack": ["social"], "label": "DatCast Podcast", "schema": 1531157324751, "Maturity": "first release", "tag line": "", "Additions": "", "Relies On": "Dat Project", "video src": "", "video url": "", "Encryption": "no", "Common name": "DatCast", "Description1": "Podcast about the Dat Project community", "Description2": "We interview interesting people who are helping build the Dat community and ecosystem.", "Organisation": "", "Project Type": ["Community Engagement"], "Areas of Work": ["Collaboration", "Cryptography", "Database", "Distribution", "Protocol", "Publishing", "Self-hosting", "Storage"], "Open feedback": "", "Community Info": "", "GitHub Profile": "", "Main Repository": "", "Twitter Profile": "dat_cast", "Network Topology": ["centralized"], "Suggested Groups": "", "Suggested Values": "", "Download Required": "no", "GitHub Repository": "", "Participation URL": "", "Regional Traction": "", "Software Licenses": [], "Suggested Areas of Work": "", "id": "2c5e6666-88da-4129-948b-dcfbe7f3e674", "last_modified": 1532751945762, "element type": "Project", "description": "#\n##About DatCast Podcast\n![About DatCast Podcast]()\n ###Podcast about the Dat Project community\nWe interview interesting people who are helping build the Dat community and ecosystem."}
+{
+  "URL": "https://dat-cast.hashbase.io/",
+  "Tags": "",
+  "Group": [
+    "Academics",
+    "Artists",
+    "Designers",
+    "General public",
+    "Librarians",
+    "Scientists",
+    "Software developers"
+  ],
+  "Image": "https://dat-cast.hashbase.io/img/DCUP0.jpg",
+  "Stack": [
+    "social"
+  ],
+  "label": "DatCast Podcast",
+  "schema": 1531157324751,
+  "Maturity": "first release",
+  "tag line": "",
+  "Additions": "",
+  "Relies On": "The Dat Project",
+  "video src": "",
+  "video url": "",
+  "Encryption": "no",
+  "Common name": "DatCast",
+  "Description1": "Podcast about the Dat Project community",
+  "Description2": "We interview interesting people who are helping build the Dat community and ecosystem.",
+  "Organisation": "",
+  "Project Type": [
+    "Community Engagement"
+  ],
+  "Areas of Work": [
+    "Collaboration",
+    "Cryptography",
+    "Database",
+    "Distribution",
+    "Protocol",
+    "Publishing",
+    "Self-hosting",
+    "Storage"
+  ],
+  "Open feedback": "",
+  "Community Info": "",
+  "GitHub Profile": "",
+  "Main Repository": "",
+  "Twitter Profile": "dat_cast",
+  "Network Topology": [
+    "centralized"
+  ],
+  "Suggested Groups": "",
+  "Suggested Values": "",
+  "Download Required": "no",
+  "GitHub Repository": "",
+  "Participation URL": "",
+  "Regional Traction": "",
+  "Software Licenses": [],
+  "Suggested Areas of Work": "",
+  "id": "2c5e6666-88da-4129-948b-dcfbe7f3e674",
+  "last_modified": 1532751945762,
+  "element type": "Project",
+  "description": "#\n##About DatCast Podcast\n![About DatCast Podcast]()\n ###Podcast about the Dat Project community\nWe interview interesting people who are helping build the Dat community and ecosystem."
+}
